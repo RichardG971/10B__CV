@@ -1,0 +1,111 @@
+section#tab {
+    display: table;
+    margin: auto;
+}
+
+div#tabHead, div#tabFoot, footer {
+    text-align: center;
+}
+
+div#tabHead {
+    display: table-header-group;
+    font-size: xx-large;
+    color: white;
+    background-color: rgb(74, 74, 74);
+}
+
+#tabHead img {
+    float: left;
+    padding: 40px;
+}
+
+#tabHead h1 {
+    margin-top: 90px;
+    font-size: 3.5rem;;
+}
+
+div#tabFoot {
+    font-size: x-large;
+}
+
+#tabFoot div {
+    padding: 20px;
+}
+
+#tabFoot a {
+    color: rgb(74, 74, 74);
+    text-decoration: none;
+}
+
+div#tabFoot:hover {
+    background-color: rgba(244, 210, 131, 0.5);
+    text-decoration: underline;
+}
+
+div#tabFoot:active {
+    background-color: yellow;
+    font-weight: bolder;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 1.15rem;
+}        
+
+div#tabCellG, div#tabCellD {
+    display: table-cell;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    clear: both;
+}
+
+#tabCellG {
+    width: 320px;
+    min-width: 200px;
+    background-color: rgb(244, 210, 131);
+}
+
+.fas {
+    width: 20px;
+    text-align: center;
+}
+
+#tabCellD {
+    width: 540px;
+    min-width: 300px;
+}
+
+#tabCellG ul, #tabCellD ul {
+    padding-left: inherit;
+}
+
+#tabCellG li {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#tabCellD h2 {
+    margin-bottom: 0px;
+}
+
+#tabCellD p, #tabCellD ul, #tabCellD li {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-right: 70px;
+}
+
+#tab hr {
+    border: 1px solid black;
+}
+
+#tabCellG hr {
+    border-color: white;
+    margin-right: -25px;
+}
+
+#copyr a {
+	color: initial;
+	pointer-events: none;
+}
